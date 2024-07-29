@@ -63,8 +63,12 @@ export default function Home() {
         <p>Bu kampanya valilik izni olmaksızın düzenlenmektedir. </p>
       </div>
       <div style={{ textAlign: "center", marginTop: "40px" }}>
-        <h2>Sponsored By</h2>
-        <p>Hamza Yılmaz </p>
+        <h2 style={{ marginBottom: 12, color: "lightgray" }}>Sponsored By</h2>
+
+        <img
+          src="https://static.ticimax.cloud/50498//uploads/editoruploads/logo-11.png"
+          alt="Sponsored By"
+        />
       </div>
     </main>
   );
