@@ -33,7 +33,20 @@ export default function Home() {
     <main style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <div style={{ textAlign: "center" }}>
         <h1>Gelme Durumu:</h1>
-        <h2>Henüz gelmedi</h2>
+        <div style={{ display: "inline-flex", alignItems: "start" }}>
+          <div
+            style={{
+              width: "20px",
+              height: "20px",
+              borderRadius: "50%",
+              backgroundColor: "red",
+              display: "inline-block",
+              marginRight: "10px",
+              marginTop: "5px",
+            }}
+          ></div>
+          <h2 style={{ color: "red", marginBottom: 10 }}>Henüz gelmedi</h2>
+        </div>
       </div>
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <img
