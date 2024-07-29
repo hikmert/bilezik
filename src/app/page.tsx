@@ -48,6 +48,7 @@ export default function Home() {
       <div style={{ textAlign: "center", marginBottom: "20px" }}>
         <h2>Talep Tarihi: 06.07.2024</h2>
         <p>{timeElapsed}</p>
+        {" evvel"}
       </div>
 
       <div style={{ textAlign: "center", marginTop: "40px" }}>
